@@ -1,0 +1,811 @@
+make
+mkdir -p build/./master/src
+gcc -ggdb3 -O0 -I./include -I/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include -I/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I./master/include -I./slave/include -I./types -I./logger/include -MMD -c master/src/master_handler.c -o build/./master/src/master_handler.o
+master/src/master_handler.c: In function ‘getStateQueueHandler’:
+master/src/master_handler.c:16:9: warning: implicit declaration of function ‘getStateQueueHandlerSlave’; did you mean ‘getStateQueueHandler’? [-Wimplicit-function-declaration]
+   16 |     if (getStateQueueHandlerSlave(&stateQueueHandler) != RET_OK) {
+      |         ^~~~~~~~~~~~~~~~~~~~~~~~~
+      |         getStateQueueHandler
+mkdir -p build/./master/src
+gcc -ggdb3 -O0 -I./include -I/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include -I/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/portable/ThirdParty/GCC/Posix -I./master/include -I./slave/include -I./types -I./logger/include -MMD -c master/src/master_state_machine.c -o build/./master/src/master_state_machine.o
+In file included from ./master/include/master_state_machine.h:5,
+                 from master/src/master_state_machine.c:2:
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:34:6: error: #error "include FreeRTOS.h" must appear in source files before "include queue.h"
+   34 |     #error "include FreeRTOS.h" must appear in source files before "include queue.h"
+      |      ^~~~~
+In file included from /home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:43:
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:34:6: error: #error "include FreeRTOS.h must appear in source files before include task.h"
+   34 |     #error "include FreeRTOS.h must appear in source files before include task.h"
+      |      ^~~~~
+In file included from /home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:37:
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:62:6: error: #error "FreeRTOS.h must be included before list.h"
+   62 |     #error "FreeRTOS.h must be included before list.h"
+      |      ^~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:147:25: error: unknown type name ‘TickType_t’
+  147 |     configLIST_VOLATILE TickType_t xItemValue;          /*< The value being listed.  In most cases this is used to sort the list in ascending order. */
+      |                         ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:175:14: error: unknown type name ‘UBaseType_t’
+  175 |     volatile UBaseType_t uxNumberOfItems;
+      |              ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h: In function ‘vListInitialise’:
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:433:47: error: expected declaration specifiers before ‘PRIVILEGED_FUNCTION’
+  433 | void vListInitialise( List_t * const pxList ) PRIVILEGED_FUNCTION;
+      |                                               ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:444:55: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+  444 | void vListInitialiseItem( ListItem_t * const pxItem ) PRIVILEGED_FUNCTION;
+      |                                                       ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:458:54: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+  458 |                   ListItem_t * const pxNewListItem ) PRIVILEGED_FUNCTION;
+      |                                                      ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:480:57: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+  480 |                      ListItem_t * const pxNewListItem ) PRIVILEGED_FUNCTION;
+      |                                                         ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:495:1: error: unknown type name ‘UBaseType_t’
+  495 | UBaseType_t uxListRemove( ListItem_t * const pxItemToRemove ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:495:63: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+  495 | UBaseType_t uxListRemove( ListItem_t * const pxItemToRemove ) PRIVILEGED_FUNCTION;
+      |                                                               ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:86:1: warning: empty declaration
+   86 | struct tskTaskControlBlock; /* The old naming convention is used to prevent breaking kernel aware debuggers. */
+      | ^~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:87:38: error: storage class specified for parameter ‘TaskHandle_t’
+   87 | typedef struct tskTaskControlBlock * TaskHandle_t;
+      |                                      ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:93:21: error: expected declaration specifiers or ‘...’ before ‘*’ token
+   93 | typedef BaseType_t (* TaskHookFunction_t)( void * );
+      |                     ^
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:104:3: error: storage class specified for parameter ‘eTaskState’
+  104 | } eTaskState;
+      |   ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:114:3: error: storage class specified for parameter ‘eNotifyAction’
+  114 | } eNotifyAction;
+      |   ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:121:5: error: unknown type name ‘BaseType_t’
+  121 |     BaseType_t xOverflowCount;
+      |     ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:122:5: error: unknown type name ‘TickType_t’
+  122 |     TickType_t xTimeOnEntering;
+      |     ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:123:3: error: storage class specified for parameter ‘TimeOut_t’
+  123 | } TimeOut_t;
+      |   ^~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:133:3: error: storage class specified for parameter ‘MemoryRegion_t’
+  133 | } MemoryRegion_t;
+      |   ^~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:140:5: error: unknown type name ‘TaskFunction_t’
+  140 |     TaskFunction_t pvTaskCode;
+      |     ^~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:142:5: error: unknown type name ‘configSTACK_DEPTH_TYPE’
+  142 |     configSTACK_DEPTH_TYPE usStackDepth;
+      |     ^~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:144:5: error: unknown type name ‘UBaseType_t’
+  144 |     UBaseType_t uxPriority;
+      |     ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:145:5: error: unknown type name ‘StackType_t’
+  145 |     StackType_t * puxStackBuffer;
+      |     ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:146:5: error: expected specifier-qualifier-list before ‘MemoryRegion_t’
+  146 |     MemoryRegion_t xRegions[ portNUM_CONFIGURABLE_REGIONS ];
+      |     ^~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:150:3: error: storage class specified for parameter ‘TaskParameters_t’
+  150 | } TaskParameters_t;
+      |   ^~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:156:5: error: expected specifier-qualifier-list before ‘TaskHandle_t’
+  156 |     TaskHandle_t xHandle;                         /* The handle of the task to which the rest of the information in the structure relates. */
+      |     ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:169:3: error: storage class specified for parameter ‘TaskStatus_t’
+  169 | } TaskStatus_t;
+      |   ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:179:3: error: storage class specified for parameter ‘eSleepModeStatus’
+  179 | } eSleepModeStatus;
+      |   ^~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:696:31: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+  696 | void vTaskAllocateMPURegions( TaskHandle_t xTask,
+      |                               ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:697:37: warning: type defaults to ‘int’ in declaration of ‘MemoryRegion_t’ [-Wimplicit-int]
+  697 |                               const MemoryRegion_t * const pxRegions ) PRIVILEGED_FUNCTION;
+      |                                     ^~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:697:52: error: expected ‘;’, ‘,’ or ‘)’ before ‘*’ token
+  697 |                               const MemoryRegion_t * const pxRegions ) PRIVILEGED_FUNCTION;
+      |                                                    ^
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:740:19: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+  740 | void vTaskDelete( TaskHandle_t xTaskToDelete ) PRIVILEGED_FUNCTION;
+      |                   ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:794:24: error: unknown type name ‘TickType_t’
+  794 | void vTaskDelay( const TickType_t xTicksToDelay ) PRIVILEGED_FUNCTION;
+      |                        ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:794:51: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+  794 | void vTaskDelay( const TickType_t xTicksToDelay ) PRIVILEGED_FUNCTION;
+      |                                                   ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:861:1: error: unknown type name ‘BaseType_t’
+  861 | BaseType_t xTaskDelayUntil( TickType_t * const pxPreviousWakeTime,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:861:29: error: unknown type name ‘TickType_t’
+  861 | BaseType_t xTaskDelayUntil( TickType_t * const pxPreviousWakeTime,
+      |                             ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:862:35: error: unknown type name ‘TickType_t’
+  862 |                             const TickType_t xTimeIncrement ) PRIVILEGED_FUNCTION;
+      |                                   ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:904:1: error: unknown type name ‘BaseType_t’
+  904 | BaseType_t xTaskAbortDelay( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:904:29: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+  904 | BaseType_t xTaskAbortDelay( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      |                             ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:953:1: error: unknown type name ‘UBaseType_t’
+  953 | UBaseType_t uxTaskPriorityGet( const TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:953:38: warning: type defaults to ‘int’ in declaration of ‘TaskHandle_t’ [-Wimplicit-int]
+  953 | UBaseType_t uxTaskPriorityGet( const TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      |                                      ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:953:51: error: expected ‘;’, ‘,’ or ‘)’ before ‘xTask’
+  953 | UBaseType_t uxTaskPriorityGet( const TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      |                                                   ^~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:963:1: error: unknown type name ‘UBaseType_t’
+  963 | UBaseType_t uxTaskPriorityGetFromISR( const TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:963:45: warning: type defaults to ‘int’ in declaration of ‘TaskHandle_t’ [-Wimplicit-int]
+  963 | UBaseType_t uxTaskPriorityGetFromISR( const TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      |                                             ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:963:58: error: expected ‘;’, ‘,’ or ‘)’ before ‘xTask’
+  963 | UBaseType_t uxTaskPriorityGetFromISR( const TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      |                                                          ^~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:983:1: error: expected declaration specifiers before ‘eTaskState’
+  983 | eTaskState eTaskGetState( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1041:20: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1041 | void vTaskGetInfo( TaskHandle_t xTask,
+      |                    ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1042:20: error: expected declaration specifiers or ‘...’ before ‘TaskStatus_t’
+ 1042 |                    TaskStatus_t * pxTaskStatus,
+      |                    ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1043:20: error: unknown type name ‘BaseType_t’
+ 1043 |                    BaseType_t xGetFreeStackSpace,
+      |                    ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1044:20: error: expected declaration specifiers or ‘...’ before ‘eTaskState’
+ 1044 |                    eTaskState eState ) PRIVILEGED_FUNCTION;
+      |                    ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1088:24: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1088 | void vTaskPrioritySet( TaskHandle_t xTask,
+      |                        ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1089:24: error: unknown type name ‘UBaseType_t’
+ 1089 |                        UBaseType_t uxNewPriority ) PRIVILEGED_FUNCTION;
+      |                        ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1142:20: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1142 | void vTaskSuspend( TaskHandle_t xTaskToSuspend ) PRIVILEGED_FUNCTION;
+      |                    ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1193:19: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1193 | void vTaskResume( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+      |                   ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1224:1: error: unknown type name ‘BaseType_t’
+ 1224 | BaseType_t xTaskResumeFromISR( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1224:32: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1224 | BaseType_t xTaskResumeFromISR( TaskHandle_t xTaskToResume ) PRIVILEGED_FUNCTION;
+      |                                ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1259:34: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1259 | void vTaskStartScheduler( void ) PRIVILEGED_FUNCTION;
+      |                                  ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1317:32: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1317 | void vTaskEndScheduler( void ) PRIVILEGED_FUNCTION;
+      |                                ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1370:30: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1370 | void vTaskSuspendAll( void ) PRIVILEGED_FUNCTION;
+      |                              ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1426:1: error: unknown type name ‘BaseType_t’
+ 1426 | BaseType_t xTaskResumeAll( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1426:35: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1426 | BaseType_t xTaskResumeAll( void ) PRIVILEGED_FUNCTION;
+      |                                   ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1443:1: error: unknown type name ‘TickType_t’
+ 1443 | TickType_t xTaskGetTickCount( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1443:38: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1443 | TickType_t xTaskGetTickCount( void ) PRIVILEGED_FUNCTION;
+      |                                      ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1461:1: error: unknown type name ‘TickType_t’
+ 1461 | TickType_t xTaskGetTickCountFromISR( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1461:45: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1461 | TickType_t xTaskGetTickCountFromISR( void ) PRIVILEGED_FUNCTION;
+      |                                             ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1477:1: error: unknown type name ‘UBaseType_t’
+ 1477 | UBaseType_t uxTaskGetNumberOfTasks( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1477:44: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1477 | UBaseType_t uxTaskGetNumberOfTasks( void ) PRIVILEGED_FUNCTION;
+      |                                            ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1492:23: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1492 | char * pcTaskGetName( TaskHandle_t xTaskToQuery ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+      |                       ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1510:1: error: expected declaration specifiers before ‘TaskHandle_t’
+ 1510 | TaskHandle_t xTaskGetHandle( const char * pcNameToQuery ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+      | ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1539:1: error: unknown type name ‘UBaseType_t’
+ 1539 | UBaseType_t uxTaskGetStackHighWaterMark( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1539:42: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1539 | UBaseType_t uxTaskGetStackHighWaterMark( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      |                                          ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1568:1: error: unknown type name ‘configSTACK_DEPTH_TYPE’
+ 1568 | configSTACK_DEPTH_TYPE uxTaskGetStackHighWaterMark2( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1568:54: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1568 | configSTACK_DEPTH_TYPE uxTaskGetStackHighWaterMark2( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      |                                                      ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1699:1: error: unknown type name ‘BaseType_t’
+ 1699 | BaseType_t xTaskCallApplicationTaskHook( TaskHandle_t xTask,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1699:42: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 1699 | BaseType_t xTaskCallApplicationTaskHook( TaskHandle_t xTask,
+      |                                          ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1709:1: error: expected declaration specifiers before ‘TaskHandle_t’
+ 1709 | TaskHandle_t xTaskGetIdleTaskHandle( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1808:1: error: unknown type name ‘UBaseType_t’
+ 1808 | UBaseType_t uxTaskGetSystemState( TaskStatus_t * const pxTaskStatusArray,
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1808:35: error: expected declaration specifiers or ‘...’ before ‘TaskStatus_t’
+ 1808 | UBaseType_t uxTaskGetSystemState( TaskStatus_t * const pxTaskStatusArray,
+      |                                   ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1809:41: error: unknown type name ‘UBaseType_t’
+ 1809 |                                   const UBaseType_t uxArraySize,
+      |                                         ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1810:35: error: unknown type name ‘configRUN_TIME_COUNTER_TYPE’
+ 1810 |                                   configRUN_TIME_COUNTER_TYPE * const pulTotalRunTime ) PRIVILEGED_FUNCTION;
+      |                                   ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1861:40: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1861 | void vTaskList( char * pcWriteBuffer ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+      |                                        ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1917:51: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1917 | void vTaskGetRunTimeStats( char * pcWriteBuffer ) PRIVILEGED_FUNCTION; /*lint !e971 Unqualified char types are allowed for strings and single characters only. */
+      |                                                   ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1957:1: error: unknown type name ‘configRUN_TIME_COUNTER_TYPE’
+ 1957 | configRUN_TIME_COUNTER_TYPE ulTaskGetIdleRunTimeCounter( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1957:65: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1957 | configRUN_TIME_COUNTER_TYPE ulTaskGetIdleRunTimeCounter( void ) PRIVILEGED_FUNCTION;
+      |                                                                 ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1958:1: error: unknown type name ‘configRUN_TIME_COUNTER_TYPE’
+ 1958 | configRUN_TIME_COUNTER_TYPE ulTaskGetIdleRunTimePercent( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:1958:65: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 1958 | configRUN_TIME_COUNTER_TYPE ulTaskGetIdleRunTimePercent( void ) PRIVILEGED_FUNCTION;
+      |                                                                 ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2068:1: error: unknown type name ‘BaseType_t’
+ 2068 | BaseType_t xTaskGenericNotify( TaskHandle_t xTaskToNotify,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2068:32: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 2068 | BaseType_t xTaskGenericNotify( TaskHandle_t xTaskToNotify,
+      |                                ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2069:32: error: unknown type name ‘UBaseType_t’
+ 2069 |                                UBaseType_t uxIndexToNotify,
+      |                                ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2071:32: error: expected declaration specifiers or ‘...’ before ‘eNotifyAction’
+ 2071 |                                eNotifyAction eAction,
+      |                                ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2220:1: error: unknown type name ‘BaseType_t’
+ 2220 | BaseType_t xTaskGenericNotifyFromISR( TaskHandle_t xTaskToNotify,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2220:39: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 2220 | BaseType_t xTaskGenericNotifyFromISR( TaskHandle_t xTaskToNotify,
+      |                                       ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2221:39: error: unknown type name ‘UBaseType_t’
+ 2221 |                                       UBaseType_t uxIndexToNotify,
+      |                                       ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2223:39: error: expected declaration specifiers or ‘...’ before ‘eNotifyAction’
+ 2223 |                                       eNotifyAction eAction,
+      |                                       ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2225:39: error: unknown type name ‘BaseType_t’
+ 2225 |                                       BaseType_t * pxHigherPriorityTaskWoken ) PRIVILEGED_FUNCTION;
+      |                                       ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2364:1: error: unknown type name ‘BaseType_t’
+ 2364 | BaseType_t xTaskGenericNotifyWait( UBaseType_t uxIndexToWaitOn,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2364:36: error: unknown type name ‘UBaseType_t’
+ 2364 | BaseType_t xTaskGenericNotifyWait( UBaseType_t uxIndexToWaitOn,
+      |                                    ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2368:36: error: unknown type name ‘TickType_t’
+ 2368 |                                    TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                    ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2530:37: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 2530 | void vTaskGenericNotifyGiveFromISR( TaskHandle_t xTaskToNotify,
+      |                                     ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2531:37: error: unknown type name ‘UBaseType_t’
+ 2531 |                                     UBaseType_t uxIndexToNotify,
+      |                                     ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2532:37: error: unknown type name ‘BaseType_t’
+ 2532 |                                     BaseType_t * pxHigherPriorityTaskWoken ) PRIVILEGED_FUNCTION;
+      |                                     ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2636:35: error: unknown type name ‘UBaseType_t’
+ 2636 | uint32_t ulTaskGenericNotifyTake( UBaseType_t uxIndexToWaitOn,
+      |                                   ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2637:35: error: unknown type name ‘BaseType_t’
+ 2637 |                                   BaseType_t xClearCountOnExit,
+      |                                   ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2638:35: error: unknown type name ‘TickType_t’
+ 2638 |                                   TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                   ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2701:1: error: unknown type name ‘BaseType_t’
+ 2701 | BaseType_t xTaskGenericNotifyStateClear( TaskHandle_t xTask,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2701:42: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 2701 | BaseType_t xTaskGenericNotifyStateClear( TaskHandle_t xTask,
+      |                                          ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2702:42: error: unknown type name ‘UBaseType_t’
+ 2702 |                                          UBaseType_t uxIndexToClear ) PRIVILEGED_FUNCTION;
+      |                                          ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2766:41: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 2766 | uint32_t ulTaskGenericNotifyValueClear( TaskHandle_t xTask,
+      |                                         ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2767:41: error: unknown type name ‘UBaseType_t’
+ 2767 |                                         UBaseType_t uxIndexToClear,
+      |                                         ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2788:28: error: expected declaration specifiers or ‘...’ before ‘TimeOut_t’
+ 2788 | void vTaskSetTimeOutState( TimeOut_t * const pxTimeOut ) PRIVILEGED_FUNCTION;
+      |                            ^~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2873:1: error: unknown type name ‘BaseType_t’
+ 2873 | BaseType_t xTaskCheckForTimeOut( TimeOut_t * const pxTimeOut,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2873:34: error: expected declaration specifiers or ‘...’ before ‘TimeOut_t’
+ 2873 | BaseType_t xTaskCheckForTimeOut( TimeOut_t * const pxTimeOut,
+      |                                  ^~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2874:34: error: unknown type name ‘TickType_t’
+ 2874 |                                  TickType_t * const pxTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                  ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2902:1: error: unknown type name ‘BaseType_t’
+ 2902 | BaseType_t xTaskCatchUpTicks( TickType_t xTicksToCatchUp ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2902:31: error: unknown type name ‘TickType_t’
+ 2902 | BaseType_t xTaskCatchUpTicks( TickType_t xTicksToCatchUp ) PRIVILEGED_FUNCTION;
+      |                               ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2924:1: error: unknown type name ‘BaseType_t’
+ 2924 | BaseType_t xTaskIncrementTick( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2924:39: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 2924 | BaseType_t xTaskIncrementTick( void ) PRIVILEGED_FUNCTION;
+      |                                       ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2958:35: error: unknown type name ‘TickType_t’
+ 2958 |                             const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                   ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2958:61: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 2958 |                             const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                                             ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2960:44: error: unknown type name ‘TickType_t’
+ 2960 |                                      const TickType_t xItemValue,
+      |                                            ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2961:44: error: unknown type name ‘TickType_t’
+ 2961 |                                      const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                            ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2961:70: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 2961 |                                      const TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                                                      ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2975:39: error: unknown type name ‘TickType_t’
+ 2975 |                                       TickType_t xTicksToWait,
+      |                                       ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:2976:45: error: unknown type name ‘BaseType_t’
+ 2976 |                                       const BaseType_t xWaitIndefinitely ) PRIVILEGED_FUNCTION;
+      |                                             ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3002:1: error: unknown type name ‘BaseType_t’
+ 3002 | BaseType_t xTaskRemoveFromEventList( const List_t * const pxEventList ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3002:73: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 3002 | BaseType_t xTaskRemoveFromEventList( const List_t * const pxEventList ) PRIVILEGED_FUNCTION;
+      |                                                                         ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3004:47: error: unknown type name ‘TickType_t’
+ 3004 |                                         const TickType_t xItemValue ) PRIVILEGED_FUNCTION;
+      |                                               ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3004:71: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 3004 |                                         const TickType_t xItemValue ) PRIVILEGED_FUNCTION;
+      |                                                                       ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3014:1: error: expected declaration specifiers before ‘portDONT_DISCARD’
+ 3014 | portDONT_DISCARD void vTaskSwitchContext( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3020:1: error: unknown type name ‘TickType_t’
+ 3020 | TickType_t uxTaskResetEventItemValue( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3020:46: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 3020 | TickType_t uxTaskResetEventItemValue( void ) PRIVILEGED_FUNCTION;
+      |                                              ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3025:1: error: expected declaration specifiers before ‘TaskHandle_t’
+ 3025 | TaskHandle_t xTaskGetCurrentTaskHandle( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3031:31: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 3031 | void vTaskMissedYield( void ) PRIVILEGED_FUNCTION;
+      |                               ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3037:1: error: unknown type name ‘BaseType_t’
+ 3037 | BaseType_t xTaskGetSchedulerState( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3037:43: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘PRIVILEGED_FUNCTION’
+ 3037 | BaseType_t xTaskGetSchedulerState( void ) PRIVILEGED_FUNCTION;
+      |                                           ^~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3043:1: error: unknown type name ‘BaseType_t’
+ 3043 | BaseType_t xTaskPriorityInherit( TaskHandle_t const pxMutexHolder ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3043:34: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 3043 | BaseType_t xTaskPriorityInherit( TaskHandle_t const pxMutexHolder ) PRIVILEGED_FUNCTION;
+      |                                  ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3049:1: error: unknown type name ‘BaseType_t’
+ 3049 | BaseType_t xTaskPriorityDisinherit( TaskHandle_t const pxMutexHolder ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3049:37: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 3049 | BaseType_t xTaskPriorityDisinherit( TaskHandle_t const pxMutexHolder ) PRIVILEGED_FUNCTION;
+      |                                     ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3059:43: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 3059 | void vTaskPriorityDisinheritAfterTimeout( TaskHandle_t const pxMutexHolder,
+      |                                           ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3060:43: error: unknown type name ‘UBaseType_t’
+ 3060 |                                           UBaseType_t uxHighestPriorityWaitingTask ) PRIVILEGED_FUNCTION;
+      |                                           ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3065:1: error: unknown type name ‘UBaseType_t’
+ 3065 | UBaseType_t uxTaskGetTaskNumber( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3065:34: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 3065 | UBaseType_t uxTaskGetTaskNumber( TaskHandle_t xTask ) PRIVILEGED_FUNCTION;
+      |                                  ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3071:26: error: expected declaration specifiers or ‘...’ before ‘TaskHandle_t’
+ 3071 | void vTaskSetTaskNumber( TaskHandle_t xTask,
+      |                          ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3072:32: error: unknown type name ‘UBaseType_t’
+ 3072 |                          const UBaseType_t uxHandle ) PRIVILEGED_FUNCTION;
+      |                                ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3082:21: error: unknown type name ‘TickType_t’
+ 3082 | void vTaskStepTick( TickType_t xTicksToJump ) PRIVILEGED_FUNCTION;
+      |                     ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3098:1: error: expected declaration specifiers before ‘eSleepModeStatus’
+ 3098 | eSleepModeStatus eTaskConfirmSleepModeStatus( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3104:1: error: expected declaration specifiers before ‘TaskHandle_t’
+ 3104 | TaskHandle_t pvTaskIncrementMutexHeldCount( void ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/task.h:3110:36: error: expected declaration specifiers or ‘...’ before ‘TimeOut_t’
+ 3110 | void vTaskInternalSetTimeOutState( TimeOut_t * const pxTimeOut ) PRIVILEGED_FUNCTION;
+      |                                    ^~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:50:1: warning: empty declaration
+   50 | struct QueueDefinition; /* Using old naming convention so as not to break kernel aware debuggers. */
+      | ^~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:51:36: error: storage class specified for parameter ‘QueueHandle_t’
+   51 | typedef struct QueueDefinition   * QueueHandle_t;
+      |                                    ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:58:36: error: storage class specified for parameter ‘QueueSetHandle_t’
+   58 | typedef struct QueueDefinition   * QueueSetHandle_t;
+      |                                    ^~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:65:36: error: storage class specified for parameter ‘QueueSetMemberHandle_t’
+   65 | typedef struct QueueDefinition   * QueueSetMemberHandle_t;
+      |                                    ^~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:657:1: error: unknown type name ‘BaseType_t’
+  657 | BaseType_t xQueueGenericSend( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:657:31: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+  657 | BaseType_t xQueueGenericSend( QueueHandle_t xQueue,
+      |                               ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:659:31: error: unknown type name ‘TickType_t’
+  659 |                               TickType_t xTicksToWait,
+      |                               ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:660:37: error: unknown type name ‘BaseType_t’
+  660 |                               const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+      |                                     ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:755:1: error: unknown type name ‘BaseType_t’
+  755 | BaseType_t xQueuePeek( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:755:24: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+  755 | BaseType_t xQueuePeek( QueueHandle_t xQueue,
+      |                        ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:757:24: error: unknown type name ‘TickType_t’
+  757 |                        TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                        ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:791:1: error: unknown type name ‘BaseType_t’
+  791 | BaseType_t xQueuePeekFromISR( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:791:31: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+  791 | BaseType_t xQueuePeekFromISR( QueueHandle_t xQueue,
+      |                               ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:884:1: error: unknown type name ‘BaseType_t’
+  884 | BaseType_t xQueueReceive( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:884:27: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+  884 | BaseType_t xQueueReceive( QueueHandle_t xQueue,
+      |                           ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:886:27: error: unknown type name ‘TickType_t’
+  886 |                           TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                           ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:903:1: error: unknown type name ‘UBaseType_t’
+  903 | UBaseType_t uxQueueMessagesWaiting( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:903:43: warning: type defaults to ‘int’ in declaration of ‘QueueHandle_t’ [-Wimplicit-int]
+  903 | UBaseType_t uxQueueMessagesWaiting( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                           ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:903:57: error: expected ‘;’, ‘,’ or ‘)’ before ‘xQueue’
+  903 | UBaseType_t uxQueueMessagesWaiting( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                                         ^~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:922:1: error: unknown type name ‘UBaseType_t’
+  922 | UBaseType_t uxQueueSpacesAvailable( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:922:43: warning: type defaults to ‘int’ in declaration of ‘QueueHandle_t’ [-Wimplicit-int]
+  922 | UBaseType_t uxQueueSpacesAvailable( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                           ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:922:57: error: expected ‘;’, ‘,’ or ‘)’ before ‘xQueue’
+  922 | UBaseType_t uxQueueSpacesAvailable( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                                         ^~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:938:20: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+  938 | void vQueueDelete( QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                    ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1323:1: error: unknown type name ‘BaseType_t’
+ 1323 | BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1323:38: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1323 | BaseType_t xQueueGenericSendFromISR( QueueHandle_t xQueue,
+      |                                      ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1325:38: error: unknown type name ‘BaseType_t’
+ 1325 |                                      BaseType_t * const pxHigherPriorityTaskWoken,
+      |                                      ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1326:44: error: unknown type name ‘BaseType_t’
+ 1326 |                                      const BaseType_t xCopyPosition ) PRIVILEGED_FUNCTION;
+      |                                            ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1327:1: error: unknown type name ‘BaseType_t’
+ 1327 | BaseType_t xQueueGiveFromISR( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1327:31: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1327 | BaseType_t xQueueGiveFromISR( QueueHandle_t xQueue,
+      |                               ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1328:31: error: unknown type name ‘BaseType_t’
+ 1328 |                               BaseType_t * const pxHigherPriorityTaskWoken ) PRIVILEGED_FUNCTION;
+      |                               ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1417:1: error: unknown type name ‘BaseType_t’
+ 1417 | BaseType_t xQueueReceiveFromISR( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1417:34: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1417 | BaseType_t xQueueReceiveFromISR( QueueHandle_t xQueue,
+      |                                  ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1419:34: error: unknown type name ‘BaseType_t’
+ 1419 |                                  BaseType_t * const pxHigherPriorityTaskWoken ) PRIVILEGED_FUNCTION;
+      |                                  ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1425:1: error: unknown type name ‘BaseType_t’
+ 1425 | BaseType_t xQueueIsQueueEmptyFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1425:45: warning: type defaults to ‘int’ in declaration of ‘QueueHandle_t’ [-Wimplicit-int]
+ 1425 | BaseType_t xQueueIsQueueEmptyFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                             ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1425:59: error: expected ‘;’, ‘,’ or ‘)’ before ‘xQueue’
+ 1425 | BaseType_t xQueueIsQueueEmptyFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                                           ^~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1426:1: error: unknown type name ‘BaseType_t’
+ 1426 | BaseType_t xQueueIsQueueFullFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1426:44: warning: type defaults to ‘int’ in declaration of ‘QueueHandle_t’ [-Wimplicit-int]
+ 1426 | BaseType_t xQueueIsQueueFullFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                            ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1426:58: error: expected ‘;’, ‘,’ or ‘)’ before ‘xQueue’
+ 1426 | BaseType_t xQueueIsQueueFullFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                                          ^~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1427:1: error: unknown type name ‘UBaseType_t’
+ 1427 | UBaseType_t uxQueueMessagesWaitingFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1427:50: warning: type defaults to ‘int’ in declaration of ‘QueueHandle_t’ [-Wimplicit-int]
+ 1427 | UBaseType_t uxQueueMessagesWaitingFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                                  ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1427:64: error: expected ‘;’, ‘,’ or ‘)’ before ‘xQueue’
+ 1427 | UBaseType_t uxQueueMessagesWaitingFromISR( const QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                                                ^~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1438:1: error: unknown type name ‘BaseType_t’
+ 1438 | BaseType_t xQueueCRSendFromISR( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1438:33: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1438 | BaseType_t xQueueCRSendFromISR( QueueHandle_t xQueue,
+      |                                 ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1440:33: error: unknown type name ‘BaseType_t’
+ 1440 |                                 BaseType_t xCoRoutinePreviouslyWoken );
+      |                                 ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1441:1: error: unknown type name ‘BaseType_t’
+ 1441 | BaseType_t xQueueCRReceiveFromISR( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1441:36: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1441 | BaseType_t xQueueCRReceiveFromISR( QueueHandle_t xQueue,
+      |                                    ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1443:36: error: unknown type name ‘BaseType_t’
+ 1443 |                                    BaseType_t * pxTaskWoken );
+      |                                    ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1444:1: error: unknown type name ‘BaseType_t’
+ 1444 | BaseType_t xQueueCRSend( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1444:26: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1444 | BaseType_t xQueueCRSend( QueueHandle_t xQueue,
+      |                          ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1446:26: error: unknown type name ‘TickType_t’
+ 1446 |                          TickType_t xTicksToWait );
+      |                          ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1447:1: error: unknown type name ‘BaseType_t’
+ 1447 | BaseType_t xQueueCRReceive( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1447:29: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1447 | BaseType_t xQueueCRReceive( QueueHandle_t xQueue,
+      |                             ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1449:29: error: unknown type name ‘TickType_t’
+ 1449 |                             TickType_t xTicksToWait );
+      |                             ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1456:1: error: expected declaration specifiers before ‘QueueHandle_t’
+ 1456 | QueueHandle_t xQueueCreateMutex( const uint8_t ucQueueType ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1457:1: error: expected declaration specifiers before ‘QueueHandle_t’
+ 1457 | QueueHandle_t xQueueCreateMutexStatic( const uint8_t ucQueueType,
+      | ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1459:1: error: expected declaration specifiers before ‘QueueHandle_t’
+ 1459 | QueueHandle_t xQueueCreateCountingSemaphore( const UBaseType_t uxMaxCount,
+      | ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1461:1: error: expected declaration specifiers before ‘QueueHandle_t’
+ 1461 | QueueHandle_t xQueueCreateCountingSemaphoreStatic( const UBaseType_t uxMaxCount,
+      | ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1464:1: error: unknown type name ‘BaseType_t’
+ 1464 | BaseType_t xQueueSemaphoreTake( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1464:33: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1464 | BaseType_t xQueueSemaphoreTake( QueueHandle_t xQueue,
+      |                                 ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1465:33: error: unknown type name ‘TickType_t’
+ 1465 |                                 TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                 ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1466:1: error: expected declaration specifiers before ‘TaskHandle_t’
+ 1466 | TaskHandle_t xQueueGetMutexHolder( QueueHandle_t xSemaphore ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1467:1: error: expected declaration specifiers before ‘TaskHandle_t’
+ 1467 | TaskHandle_t xQueueGetMutexHolderFromISR( QueueHandle_t xSemaphore ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1473:1: error: unknown type name ‘BaseType_t’
+ 1473 | BaseType_t xQueueTakeMutexRecursive( QueueHandle_t xMutex,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1473:38: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1473 | BaseType_t xQueueTakeMutexRecursive( QueueHandle_t xMutex,
+      |                                      ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1474:38: error: unknown type name ‘TickType_t’
+ 1474 |                                      TickType_t xTicksToWait ) PRIVILEGED_FUNCTION;
+      |                                      ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1475:1: error: unknown type name ‘BaseType_t’
+ 1475 | BaseType_t xQueueGiveMutexRecursive( QueueHandle_t xMutex ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1475:38: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1475 | BaseType_t xQueueGiveMutexRecursive( QueueHandle_t xMutex ) PRIVILEGED_FUNCTION;
+      |                                      ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1615:1: error: expected declaration specifiers before ‘QueueSetHandle_t’
+ 1615 | QueueSetHandle_t xQueueCreateSet( const UBaseType_t uxEventQueueLength ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1639:1: error: unknown type name ‘BaseType_t’
+ 1639 | BaseType_t xQueueAddToSet( QueueSetMemberHandle_t xQueueOrSemaphore,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1639:28: error: expected declaration specifiers or ‘...’ before ‘QueueSetMemberHandle_t’
+ 1639 | BaseType_t xQueueAddToSet( QueueSetMemberHandle_t xQueueOrSemaphore,
+      |                            ^~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1640:28: error: expected declaration specifiers or ‘...’ before ‘QueueSetHandle_t’
+ 1640 |                            QueueSetHandle_t xQueueSet ) PRIVILEGED_FUNCTION;
+      |                            ^~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1659:1: error: unknown type name ‘BaseType_t’
+ 1659 | BaseType_t xQueueRemoveFromSet( QueueSetMemberHandle_t xQueueOrSemaphore,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1659:33: error: expected declaration specifiers or ‘...’ before ‘QueueSetMemberHandle_t’
+ 1659 | BaseType_t xQueueRemoveFromSet( QueueSetMemberHandle_t xQueueOrSemaphore,
+      |                                 ^~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1660:33: error: expected declaration specifiers or ‘...’ before ‘QueueSetHandle_t’
+ 1660 |                                 QueueSetHandle_t xQueueSet ) PRIVILEGED_FUNCTION;
+      |                                 ^~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1696:1: error: expected declaration specifiers before ‘QueueSetMemberHandle_t’
+ 1696 | QueueSetMemberHandle_t xQueueSelectFromSet( QueueSetHandle_t xQueueSet,
+      | ^~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1702:1: error: expected declaration specifiers before ‘QueueSetMemberHandle_t’
+ 1702 | QueueSetMemberHandle_t xQueueSelectFromSetFromISR( QueueSetHandle_t xQueueSet ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1705:38: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1705 | void vQueueWaitForMessageRestricted( QueueHandle_t xQueue,
+      |                                      ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1706:38: error: unknown type name ‘TickType_t’
+ 1706 |                                      TickType_t xTicksToWait,
+      |                                      ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1707:44: error: unknown type name ‘BaseType_t’
+ 1707 |                                      const BaseType_t xWaitIndefinitely ) PRIVILEGED_FUNCTION;
+      |                                            ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1708:1: error: unknown type name ‘BaseType_t’
+ 1708 | BaseType_t xQueueGenericReset( QueueHandle_t xQueue,
+      | ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1708:32: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1708 | BaseType_t xQueueGenericReset( QueueHandle_t xQueue,
+      |                                ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1709:32: error: unknown type name ‘BaseType_t’
+ 1709 |                                BaseType_t xNewQueue ) PRIVILEGED_FUNCTION;
+      |                                ^~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1710:28: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1710 | void vQueueSetQueueNumber( QueueHandle_t xQueue,
+      |                            ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1711:28: error: unknown type name ‘UBaseType_t’
+ 1711 |                            UBaseType_t uxQueueNumber ) PRIVILEGED_FUNCTION;
+      |                            ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1712:1: error: unknown type name ‘UBaseType_t’
+ 1712 | UBaseType_t uxQueueGetQueueNumber( QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      | ^~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1712:36: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1712 | UBaseType_t uxQueueGetQueueNumber( QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                                    ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/queue.h:1713:30: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+ 1713 | uint8_t ucQueueGetQueueType( QueueHandle_t xQueue ) PRIVILEGED_FUNCTION;
+      |                              ^~~~~~~~~~~~~
+./master/include/master_state_machine.h:31:35: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+   31 | RetVal setStateQueueHandlerMaster(QueueHandle_t stateQueueHandle);
+      |                                   ^~~~~~~~~~~~~
+./master/include/master_state_machine.h:38:35: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+   38 | RetVal getStateQueueHandlerMaster(QueueHandle_t stateQueueHandle);
+      |                                   ^~~~~~~~~~~~~
+In file included from master/src/master_state_machine.c:3:
+./master/include/master_comm.h:11:22: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+   11 | RetVal sendMsgMaster(QueueHandle_t myQueueHandle, const void *data);
+      |                      ^~~~~~~~~~~~~
+./master/include/master_comm.h:18:24: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+   18 | RetVal reciveMsgMaster(QueueHandle_t myQueueHandle, void *data);
+      |                        ^~~~~~~~~~~~~
+In file included from master/src/master_state_machine.c:6:
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/semphr.h:33:6: error: #error "include FreeRTOS.h" must appear in source files before "include semphr.h"
+   33 |     #error "include FreeRTOS.h" must appear in source files before "include semphr.h"
+      |      ^~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/semphr.h:38:23: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘SemaphoreHandle_t’
+   38 | typedef QueueHandle_t SemaphoreHandle_t;
+      |                       ^~~~~~~~~~~~~~~~~
+master/src/master_state_machine.c:9:21: error: storage class specified for parameter ‘currentState_’
+    9 | static MasterStates currentState_ = IDLE;
+      |                     ^~~~~~~~~~~~~
+master/src/master_state_machine.c:9:1: error: parameter ‘currentState_’ is initialized
+    9 | static MasterStates currentState_ = IDLE;
+      | ^~~~~~
+master/src/master_state_machine.c:12:8: error: unknown type name ‘SemaphoreHandle_t’
+   12 | static SemaphoreHandle_t stateSemaphore_;
+      |        ^~~~~~~~~~~~~~~~~
+master/src/master_state_machine.c:12:26: error: storage class specified for parameter ‘stateSemaphore_’
+   12 | static SemaphoreHandle_t stateSemaphore_;
+      |                          ^~~~~~~~~~~~~~~
+master/src/master_state_machine.c:15:18: error: storage class specified for parameter ‘StateHandler’
+   15 | typedef RetVal (*StateHandler)();
+      |                  ^~~~~~~~~~~~
+master/src/master_state_machine.c:18:15: error: storage class specified for parameter ‘handleIdleState’
+   18 | static RetVal handleIdleState();
+      |               ^~~~~~~~~~~~~~~
+master/src/master_state_machine.c:19:15: error: storage class specified for parameter ‘handleProcessState’
+   19 | static RetVal handleProcessState();
+      |               ^~~~~~~~~~~~~~~~~~
+master/src/master_state_machine.c:20:15: error: storage class specified for parameter ‘handleErrorState’
+   20 | static RetVal handleErrorState();
+      |               ^~~~~~~~~~~~~~~~
+master/src/master_state_machine.c:23:21: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘stateHandlers_’
+   23 | static StateHandler stateHandlers_[MAX_STATE_MASTER] = {
+      |                     ^~~~~~~~~~~~~~
+master/src/master_state_machine.c:28:2: error: expected declaration specifiers before ‘;’ token
+   28 | };
+      |  ^
+master/src/master_state_machine.c:34:33: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+   34 | static RetVal handleIdleState() {
+      |                                 ^
+master/src/master_state_machine.c:43:36: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+   43 | static RetVal handleProcessState() {
+      |                                    ^
+master/src/master_state_machine.c:52:34: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+   52 | static RetVal handleErrorState() {
+      |                                  ^
+master/src/master_state_machine.c:67:47: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+   67 | static RetVal setNewState(MasterStates state) {
+      |                                               ^
+master/src/master_state_machine.c:89:35: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+   89 | RetVal initStateSemaphoreMaster() {
+      |                                   ^
+master/src/master_state_machine.c:103:43: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+  103 | RetVal stateDispatcher(QueueMessage data) {
+      |                                           ^
+master/src/master_state_machine.c:129:32: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘{’ token
+  129 | MasterStates getCurrentState() {
+      |                                ^
+master/src/master_state_machine.c:134:35: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+  134 | RetVal setStateQueueHandlerMaster(QueueHandle_t stateQueueHandle) {
+      |                                   ^~~~~~~~~~~~~
+master/src/master_state_machine.c:145:35: error: expected declaration specifiers or ‘...’ before ‘QueueHandle_t’
+  145 | RetVal getStateQueueHandlerMaster(QueueHandle_t stateQueueHandle) {
+      |                                   ^~~~~~~~~~~~~
+/home/yancho/FreeRTOSv202212.01/FreeRTOS/Source/include/list.h:433:6: error: old-style parameter declarations in prototyped function definition
+  433 | void vListInitialise( List_t * const pxList ) PRIVILEGED_FUNCTION;
+      |      ^~~~~~~~~~~~~~~
+master/src/master_state_machine.c:153: error: expected ‘{’ at end of input
+make: *** [Makefile:54: build/./master/src/master_state_machine.o] Error 1

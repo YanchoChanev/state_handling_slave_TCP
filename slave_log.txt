@@ -1,0 +1,672 @@
+[Sun Dec 22 17:29:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:29:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:29:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:29:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:29:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:11 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:11 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:11 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:11 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:11 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:30:35 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:30:39 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:30:46 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:30:51 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:31:02 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:31:04 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:31:06 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:31:07 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:31:37 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:31:37 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:31:37 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:31:37 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:31:37 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:31:47 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:31:55 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:32:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:32:47 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:32:52 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:32:55 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:33:15 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:15 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:15 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:15 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:15 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:28 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:33:32 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:33:35 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:33:40 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:33:41 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:33:58 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:58 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:58 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:58 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:33:58 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:34:18 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:34:22 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:35:03 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:35:03 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:35:24 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 17:35:24 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:35:30 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:35:30 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:35:32 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 17:35:32 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:38:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:38:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:38:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:38:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:38:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:39:18 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:39:18 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:39:55 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:39:58 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 17:39:58 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:40:01 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:40:01 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:40:06 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 17:40:06 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:40:08 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:40:08 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:41:09 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 17:41:09 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:41:11 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:41:11 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:41:14 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 17:41:14 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:41:16 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:41:16 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:41:35 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:41:38 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 17:41:38 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:41:43 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:41:43 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:41:55 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:41:55 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:41:55 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:41:55 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:41:55 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:42:10 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:42:10 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:43:59 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:44:02 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 17:44:02 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 17:44:04 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 17:44:04 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 17:59:54 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:59:54 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:59:54 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:59:54 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 17:59:54 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:00:09 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:00:09 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:00:19 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:00:19 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:02:44 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:02:44 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:02:56 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:02:56 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:02:56 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:02:56 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:02:56 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:03:17 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:03:17 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:03:55 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:03:58 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:03:58 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:04:02 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:04:02 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:04:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:04:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:04:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:04:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:04:32 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:04:41 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:04:41 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:06:52 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:06:55 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:06:55 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:07:03 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:07:03 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:09:01 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:09:01 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:09:01 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:09:01 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:09:01 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:09:11 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:09:11 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:10:27 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:10:29 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:10:29 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:10:34 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:10:34 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:12:24 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:12:24 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:12:33 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:12:33 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:12:33 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:12:33 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:12:33 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:12:52 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:12:52 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:12:57 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:12:57 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:12:58 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:12:58 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:12:59 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:15:56 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:15:56 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:16:06 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:16:06 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:16:15 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:16:15 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:16:19 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 18:16:19 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 18:34:19 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:34:19 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:34:19 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:34:19 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:34:19 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:35:07 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:35:07 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:35:27 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:35:27 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:35:32 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:35:32 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:36:45 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:36:55 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:36:55 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:37:00 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:37:00 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:37:00 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:37:02 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:37:02 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:37:03 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:37:03 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:37:57 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:37:57 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:37:57 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:37:57 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:37:57 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:39:02 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:39:02 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:40:11 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:40:11 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:40:15 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:40:15 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:41:04 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:41:04 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:41:08 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:41:08 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:41:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:41:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:41:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:41:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:41:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:41:32 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:41:32 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:41:34 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:41:34 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 18:42:20 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:42:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:42:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:42:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:42:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:42:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:42:59 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:43:21 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:43:21 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:43:21 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:43:21 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:43:21 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:43:33 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:52:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:52:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:52:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:52:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:52:12 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:52:48 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:52:48 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 18:52:49 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 18:53:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:53:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:53:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:53:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:53:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:53:59 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:53:59 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:54:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:54:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:54:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:54:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:54:42 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 18:55:16 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 18:55:16 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 18:55:22 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 18:55:22 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:03:49 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:03:49 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:04:00 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 19:04:00 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:04:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:04:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:04:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:04:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:04:40 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:05:08 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:05:08 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:05:12 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 19:05:12 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:05:27 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:05:27 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:05:32 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:05:32 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:06:49 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:06:53 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:06:53 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:06:56 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:06:56 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:07:11 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:07:39 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:07:39 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:07:39 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:07:39 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:07:39 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:07:59 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:07:59 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:08:14 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 19:08:14 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:08:20 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:08:21 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:08:48 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:08:48 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:08:48 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:08:48 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:08:48 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:09:10 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:09:10 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:09:26 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:09:26 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:10:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:10:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:10:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:10:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:10:27 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:10:36 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:10:36 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:22:07 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:22:13 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:22:13 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:22:20 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:22:20 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:23:12 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:23:35 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:23:35 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:23:35 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:23:35 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:23:35 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:23:48 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:23:48 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:27:15 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:27:18 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:27:18 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:27:25 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:27:25 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:27:29 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 19:27:29 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:28:45 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:28:45 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:33:54 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:34:05 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:34:05 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:34:05 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:34:05 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:34:05 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:35:14 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:35:14 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:35:33 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:35:33 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:36:10 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:36:10 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:36:15 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:36:15 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:36:16 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:36:16 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:36:17 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:36:17 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:36:34 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:36:34 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:36:38 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:36:38 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:38:28 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:38:32 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:38:32 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:38:35 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:38:35 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:38:44 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:38:44 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:38:49 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:38:49 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:38:57 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 19:38:57 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:42:07 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:42:07 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:42:07 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:42:07 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:42:07 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:42:21 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:42:21 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:42:24 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 19:42:24 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:43:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:43:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:43:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:43:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:43:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Deleting task 0
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Deleting task 1
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Deleting task 3
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 19:43:33 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:43:36 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 19:43:36 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:44:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:44:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:44:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:44:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:44:25 2024] [INFO] [Main] SlaveTaskTestHandling created successfully
+
+[Sun Dec 22 19:44:32 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:44:32 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:44:42 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:44:42 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:44:44 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:44:44 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveStateMachine] New state is 2, isSent = 1
+[Sun Dec 22 19:44:48 2024] [INFO] [SlaveStateMachine] Slave: Handling FAULT state
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Deleting task 0
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Deleting task 1
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Deleting task 3
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveStateMachine] New state is 0, isSent = 1
+[Sun Dec 22 19:44:51 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Restarting all tasks
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Deleting task 0
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Deleting task 1
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Deleting task 2
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Deleting task 3
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Recreating task 0
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Task 0 created successfully
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Recreating task 1
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Task 1 created successfully
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Recreating task 2
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Task 2 created successfully
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Recreating task 3
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveRestartThread] Task 3 created successfully
+[Sun Dec 22 19:44:52 2024] [INFO] [SlaveStateMachine] Slave: Handling SLEEP state
+[Sun Dec 22 19:45:40 2024] [INFO] [SlaveStateMachine] New state is 1, isSent = 1
+[Sun Dec 22 19:45:40 2024] [INFO] [SlaveStateMachine] Slave: Handling ACTIVE state
